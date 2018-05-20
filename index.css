@@ -54,7 +54,7 @@ html {
   font-family: cookie;
   font-weight: 200;
   font-size: 30px;
-  color: #00e3ff;
+  color: #55E6C1;
 }
 h1 {
   font-size: 1.5em;
@@ -80,13 +80,13 @@ h1 {
 .profile-pic {
   display: block;
   height: 200px;
-  border: solid #00e3ff 5px;
+  border: solid #55E6C1 5px;
   border-radius: 20%;
   margin: 10px auto;
 }
 a {
   text-decoration: none;
-  border-bottom: #00e3ff 2px solid;
+  border-bottom: #55E6C1 2px solid;
   color: #222;
 }
 /*===footer===*/
@@ -97,12 +97,12 @@ a {
 }
 
 .icon-social {
-  color: #00e3ff;
+  color: #55E6C1;
   font-size: 1.1em;
 }
 .footer a {
   display: inline-block;
   text-decoration: none;
-  border-bottom: #00e3ff 2px solid;
+  border-bottom: #55E6C1 2px solid;
   margin: 10px;
 }
