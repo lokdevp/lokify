@@ -8,7 +8,8 @@
   <link rel="icon" href="img/logo.png" type="image/png">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet">
-  <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?u8vidh">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+  <link rel="stylesheet" href="/font/flaticon.css">
   <link rel="stylesheet" href="index.css">
   <title>lokify</title>
 </head>
@@ -17,37 +18,100 @@
   <div class="container">
     <header class="header">
       <span>lokify.me</span>
+      <div class="Navbar__Link Navbar__Link-toggle">
+        <i class="flaticon-menu icon-social"></i>
+      </div>
+      <nav class="Navbar__Items">
+        <a href="#portfolio">
+          <i class="flaticon-briefcase icon-social"></i> Portfolio
+        </a>
+        <a target="_blank" href="mailto:lokesh@lokify.me">
+          <i class="flaticon-email icon-social"></i> lokesh@lokify.me</a>
+      </nav>
     </header>
     <section class="content">
-      <img class="profile-pic" src="img/profile.jpg" alt="">
       <article>
-        <h1>About</h1>
-        <p>Hi I’m Lokesh.</p>
+        <h1 style="margin: 50px;text-align: center">About</h1>
         <p>I'm a full stack web developer with 3.5 years of programming experience. I started out my professional career at
-          <a target="_blank" href="https://www.mindtree.com/"> Mindtree</a> as a Java Backend Developer. However I always wanted to do frontend, hence I moved and now I'm a full
-          fledged web-developer. My Javascript library of choice is react with redux as the state container.</p>
+          <a target="_blank" href="https://www.mindtree.com/"> Mindtree</a> as a Java Backend Developer after which I leapt on to frontend.
+          My Javascript library of choice is react with redux as the state container.</p>
         <p>
-          I'm currently doing freelance work, and also building an audiobook player using react-native.
+          I'm currently doing freelancing and building an
+          <a target="_blank" href="https://github.com/lokdevp/native-audiobook-player">
+            audiobook player</a> using react-native.
         </p>
         <p>I'm also an Linux enthusiast, I've been using various Linux-based distros for over 8 years. Btw I use Arch now.</p>
       </article>
-
-
     </section>
-    <footer class="footer">
+    <section class="profile">
+      <img class="profile-pic" src="img/profile.jpg" alt="">
+      <h3>Lokesh Devasenapathi</h3>
+      <p class="color-light-gray">
+        Full Stack Developer
+      </p>
       <a target="_blank" href="https://github.com/lokdevp">
-        <i class="socicon-github icon-social"></i> github</a>
-      </i>
+        <i class="flaticon-github-big-logo icon-social"></i>GitHub</a>
 
       <a target="_blank" href="https://www.linkedin.com/in/lokdevp">
-        <i class="socicon-linkedin icon-social"></i> linkedin</a>
+        <i class="flaticon-linkedin icon-social"></i> linkedin</a>
       </i>
-      <a target="_blank" href="mailto:lokesh@lokify.me">
-        <i class="socicon-mail icon-social"></i> lokesh@lokify.me</a>
-      </i>
-    </footer>
+    </section>
+    <div class="logos">
+      <img src="/icons/React-icon.svg" alt="">
+      <img src="/icons/JavaScript_logo.svg" alt="">
+      <img src="/icons/redux.svg" alt="">
+    </div>
+    <div class="arrow">
+      <a href="#portfolio">
+        <i class="flaticon-down-chevron icon-social"></i>
+      </a>
+    </div>
   </div>
+  <div id="portfolio">
+    <h1>portfolio</h1>
+    <div class="contents">
+      <div class="project">
+        <h2>Native Audiobook Player</h2>
+        <img src="img/native-banner.png" alt="">
+        <div class="project-links">
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.nativeaudiobookplayer">
+            <i class="flaticon-google-play-1 icon-social"></i> Google Play</a>
+          <a target="_blank" href="https://github.com/lokdevp/native-audiobook-player">
+            <i class="flaticon-github-big-logo icon-social"></i>GitHub</a>
+        </div>
+        <p>
 
+          You just add your main audiobook folder and every folder in there will be recognised as a single book. That keeps your library
+          simple and tidy. It can remembers last position.
+          <br>
+          <br>Native Audiobook Player is free and Open Source. That means, everyone can see what it does. Minimal permissions,
+          no tracking.
+          <br>
+          <br>It is open sourced under the MIT license.
+        </p>
+      </div>
+      <div class="project">
+        <h2>Tulip Tex Park and Naturals</h2>
+        <img src="img/tulip-site.jpg" alt="">
+        <div class="project-links">
+
+          <a target="_blank" href="https://tuliptexpark.com/">
+            <i class="flaticon-external-link-square-with-an-arrow-in-right-diagonal icon-social"></i> Visit Page</a>
+        </div>
+        <p>Tulip Tex Park and Naturals is an exporter of textiles, organic food and the likes. I designed, optimized and deployed
+          website for client.
+        </p>
+        <p>It is build using react,bootstrap4 and scss, it is based on the
+          <a target="_blank" href="https://github.com/BlackrockDigital/startbootstrap-agency">
+            Start bootstrap agency</a> template. The product modals are replaced using
+          <a target="_blank" href="https://reactjs.org/docs/portals.html">portals</a>.</p>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+
+  </footer>
+  <script src="index.js"></script>
 </body>
 
 </html>
