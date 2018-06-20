@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 09/06/2018 10:42
+    Creation date: 20/06/2018 05:49
     */
 
     @font-face {
@@ -36,34 +36,24 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-menu-1:before { content: "\f100"; }
-.flaticon-menu-button:before { content: "\f101"; }
-.flaticon-menu:before { content: "\f102"; }
-.flaticon-google-play-2:before { content: "\f103"; }
-.flaticon-google-play-1:before { content: "\f104"; }
-.flaticon-information:before { content: "\f105"; }
-.flaticon-briefcase:before { content: "\f106"; }
-.flaticon-external-link-square-with-an-arrow-in-right-diagonal:before { content: "\f107"; }
-.flaticon-down-chevron:before { content: "\f108"; }
-.flaticon-linkedin:before { content: "\f109"; }
-.flaticon-github-big-logo:before { content: "\f10a"; }
-.flaticon-external-link:before { content: "\f10b"; }
-.flaticon-info-button:before { content: "\f10c"; }
-.flaticon-new-email-envelope:before { content: "\f10d"; }
-.flaticon-email:before { content: "\f10e"; }
+    .flaticon-menu:before { content: "\f100"; }
+.flaticon-google-play:before { content: "\f101"; }
+.flaticon-briefcase:before { content: "\f102"; }
+.flaticon-email:before { content: "\f103"; }
+.flaticon-external-link-square-with-an-arrow-in-right-diagonal:before { content: "\f104"; }
+.flaticon-linkedin:before { content: "\f105"; }
+.flaticon-github-big-logo:before { content: "\f106"; }
+.flaticon-external-link:before { content: "\f107"; }
+.flaticon-new-email-envelope:before { content: "\f108"; }
+.flaticon-down-chevron:before { content: "\f109"; }
     
-    $font-Flaticon-menu-1: "\f100";
-    $font-Flaticon-menu-button: "\f101";
-    $font-Flaticon-menu: "\f102";
-    $font-Flaticon-google-play-2: "\f103";
-    $font-Flaticon-google-play-1: "\f104";
-    $font-Flaticon-information: "\f105";
-    $font-Flaticon-briefcase: "\f106";
-    $font-Flaticon-external-link-square-with-an-arrow-in-right-diagonal: "\f107";
-    $font-Flaticon-down-chevron: "\f108";
-    $font-Flaticon-linkedin: "\f109";
-    $font-Flaticon-github-big-logo: "\f10a";
-    $font-Flaticon-external-link: "\f10b";
-    $font-Flaticon-info-button: "\f10c";
-    $font-Flaticon-new-email-envelope: "\f10d";
-    $font-Flaticon-email: "\f10e";
+    $font-Flaticon-menu: "\f100";
+    $font-Flaticon-google-play: "\f101";
+    $font-Flaticon-briefcase: "\f102";
+    $font-Flaticon-email: "\f103";
+    $font-Flaticon-external-link-square-with-an-arrow-in-right-diagonal: "\f104";
+    $font-Flaticon-linkedin: "\f105";
+    $font-Flaticon-github-big-logo: "\f106";
+    $font-Flaticon-external-link: "\f107";
+    $font-Flaticon-new-email-envelope: "\f108";
+    $font-Flaticon-down-chevron: "\f109";
