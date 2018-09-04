@@ -4,7 +4,8 @@
   box-sizing: border-box;
 }
 :root {
-  --primary-color: #00b894;
+  --primary-color: #9797aa;
+  --secondary-color: #00b894;
 }
 html {
   color: #222;
